@@ -1,0 +1,189 @@
+body
+{
+	background-image: url('https://www.softwarehow.com/wp-content/uploads/developer-coding-on-mac.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+
+
+}
+.container-fluid
+{
+	background-color: black;
+}
+#mainNav
+{
+	border-color:black;
+}
+.box
+{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.col-md-4
+{
+	text-align: center;
+}
+
+#coverImage
+{
+	/*background-image: url('https://www.softwarehow.com/wp-content/uploads/developer-coding-on-mac.png');
+	background-size: 100%;
+	background-repeat: no-repeat;*/
+	width: 100%;
+	height:700px;
+	margin:0px; 
+	background-color: transparent;
+}
+#coverImageToAnetherPage
+{
+	background-image: url('https://www.softwarehow.com/wp-content/uploads/developer-coding-on-mac.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:300px;
+	margin:0px; 
+}
+#shadowBackground
+{
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height:300px;
+	margin:0px; 
+	margin-top: -250px;
+}
+.centerHeader
+{
+	text-align: center;
+	margin-top:20%;
+}
+.centerHeader h1
+{
+	color:white;
+	font-size: 60px;
+	text-shadow:
+    			-1px -1px 0 #000,
+    			1px -1px 0 #000,
+    			-1px 1px 0 #000,
+    			1px 1px 0 #000;
+}
+.centerHeader a
+{
+	width: 200px;
+	height: 50px;
+	text-align:center;
+	padding-top:0.8%;
+	font-size: 20px;
+}
+
+#headerPage
+{
+	font-size: 30px;
+	color:black;
+	margin-bottom: 30px;
+}
+input[type="text"]
+{
+	width: 723px;
+}
+input[type="submit"]
+{
+	width: 200px;
+	margin-top: 10px;
+}
+textarea
+{
+	border-radius: 4px;
+	border:1px solid #ccc;
+}
+label
+{
+	margin-top: 10px;
+}
+footer
+{
+	background-color:  black;
+	padding: 20px;
+	width: 100%	;
+}
+.row
+{
+	background-color: white;
+}
+footer .row
+{
+	background-color: black
+}
+#information
+{
+	margin-bottom: 20px;
+}
+
+.futureBoxImage
+{
+	width: 100px;
+	height:100px;
+	display: block;
+	margin:0 auto;
+}
+
+
+/*===== preview page =====*/
+.previewImage
+{
+	margin:15px;
+}
+#previewInfo
+{
+	text-align: right !important;
+}
+#previewInfo h1
+{
+	text-align: left;
+}
+#previewInfo button
+{
+	width: 100px;
+}
+
+#serchBox input[type=text]
+{
+	width: 100%;
+	margin-bottom:20px;
+}
+#serchBox input[type=submit]
+{
+	margin-top:34px;
+}
+
+
+
+.commentsFrame{
+    height: 100px;
+    width:  100%;
+    border:1px solid black;
+}
+
+.commentsFrame::after {
+    content: "\00a0";
+    display: block;
+    height: 20px;
+    left: -10px;
+    position: relative;
+    top: 20px;
+    transform:             rotate( 45deg );
+        -moz-transform:    rotate( 45deg );
+        -ms-transform:     rotate( 45deg );
+        -o-transform:      rotate( 45deg );
+        -webkit-transform: rotate( 45deg );
+    width:  20px;
+    border-left:1px solid black;
+    border-bottom:1px solid black;
+    background-color: white;
+
+}
+.commentsFrame p 
+{
+	margin: 7px;
+}
